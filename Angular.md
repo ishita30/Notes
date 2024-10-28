@@ -29,3 +29,22 @@ Angular that actually instantiates the classes in the end. We never call **new S
 
 Standalone components are components that don’t rely on Angular modules (NgModules) to be used. Instead, they can declare their dependencies independently, which allows them to be directly imported into other standalone components, directives, pipes, or applications.
 ![alt text](image.png)
+
+To check whether project is standalone or ng module based: Check **main.ts** Bootstrapping
+
+In a standalone Angular project, the root component is bootstrapped directly without a module:
+```
+import { bootstrapApplication } from '@angular/platform-browser';
+import { AppComponent } from './app/app.component';
+
+bootstrapApplication(AppComponent)
+  .catch(err => console.error(err));
+```
+In an NgModule-based project, bootstrapping typically looks like this:
+
+```
+import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
+import { AppModule } from './app/app.module';
+
+platformBrowserDynamic().bootstrapModule(AppModule)
+  .catch(err => console.error(err));
