@@ -28,3 +28,4 @@ Angular that actually instantiates the classes in the end. We never call **new S
 #### Standalone component
 
 Standalone components are components that don’t rely on Angular modules (NgModules) to be used. Instead, they can declare their dependencies independently, which allows them to be directly imported into other standalone components, directives, pipes, or applications.
+![alt text](image.png)
