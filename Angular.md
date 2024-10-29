@@ -52,3 +52,8 @@ platformBrowserDynamic().bootstrapModule(AppModule)
 
 SCSS over CSS:  
 provides nested styling
+
+
+### NGRX ###
+package/library for state management  
+state - data used in the application
