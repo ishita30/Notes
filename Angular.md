@@ -56,4 +56,5 @@ provides nested styling
 
 ### NGRX ###
 package/library for state management  
-state - data used in the application
+State - data used in the application  
+Store - data store - data will be stored to be read by component
