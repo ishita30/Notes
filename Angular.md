@@ -33,6 +33,7 @@ Standalone components are components that don’t rely on Angular modules (NgMod
 To check whether project is standalone or ng module based: Check **main.ts** Bootstrapping
 
 In a standalone Angular project, the root component is bootstrapped directly without a module:
+
 ```
 import { bootstrapApplication } from '@angular/platform-browser';
 import { AppComponent } from './app/app.component';
@@ -40,6 +41,7 @@ import { AppComponent } from './app/app.component';
 bootstrapApplication(AppComponent)
   .catch(err => console.error(err));
 ```
+
 In an NgModule-based project, bootstrapping typically looks like this:
 
 ```
@@ -53,10 +55,10 @@ platformBrowserDynamic().bootstrapModule(AppModule)
 SCSS over CSS:  
 provides nested styling
 
+### NGRX
 
-### NGRX ###
-package/library for state management   
- 
+package/library for state management
+
 State - data used in the application  
 Store - data store - data will be stored to be read by component  
 Selector - components can read data from store using selector  
