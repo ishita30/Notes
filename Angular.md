@@ -63,5 +63,5 @@ State - data used in the application
 Store - data store - data will be stored to be read by component  
 Selector - components can read data from store using selector  
 Actions - to perform change in data in store  
-Reducer - picks up the actions, logic written to change the data in store  
+Reducer - picks up the actions, logic written to change the data in store, needs initial state of store
 Effects - side effects, triggered on certain actions
