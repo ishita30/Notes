@@ -75,4 +75,4 @@ data is selected from store using .select
 async pipe - which listens for change whenever an observable changes  
 add data using reducer
 
-reducer uses on function to 
+reducer uses on function to , first argument is action to which it listens to, second argument fucntion which updates the state
