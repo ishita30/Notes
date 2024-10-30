@@ -69,3 +69,6 @@ Effects - side effects, triggered on certain actions
 
 $ - if they store observable
 data is selected from store using .select
+
+
+| async pipe - which listens for change whenever an observable changes
