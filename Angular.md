@@ -78,4 +78,4 @@ add data using reducer
 reducer uses on function to , first argument is action to which it listens to, second argument fucntion which updates the state
 when we dispatch an action, that is when we actually execute the fucntion, not in reducer
 
-listening to observable with help of async pipe, and dispatching action
+listening to observable with help of async pipe, and dispatching action, which is executing fucntion in reducer to change value in store
