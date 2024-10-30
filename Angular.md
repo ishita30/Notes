@@ -71,4 +71,6 @@ $ - if they store observable
 data is selected from store using .select
 
 
-| async pipe - which listens for change whenever an observable changes
+| async  
+async pipe - which listens for change whenever an observable changes  
+add data using reducer
