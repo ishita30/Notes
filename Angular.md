@@ -65,3 +65,6 @@ Selector - components can read data from store using selector
 Actions - to perform change in data in store  
 Reducer - picks up the actions, logic written to change the data in store, needs initial state of store
 Effects - side effects, triggered on certain actions
+
+
+$ - if they store observable
