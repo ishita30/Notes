@@ -86,4 +86,6 @@ define action in reducer
   
   Property Binding - takes property of ts {}
 
-  Angular Lifecycle - ngOnInit
+First Constructor then ngOnInit ( on page loaded)
+ngAfterViewInit( after loading the page this will load)
+  Angular Lifecycle Hook  - ngOnInit
