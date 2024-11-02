@@ -84,4 +84,6 @@ props - to attach data to action,
 define action in reducer  
 
   
-  Property Binding - takes property of 
+  Property Binding - takes property of ts {}
+
+  Angular Lifecycle - ngOnInit
