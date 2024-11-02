@@ -81,4 +81,7 @@ when we dispatch an action, that is when we actually execute the fucntion, not i
 listening to observable with help of async pipe, and dispatching action, which is executing fucntion in reducer to change value in store
 actions can take in data  
 props - to attach data to action,
-define action in reducer
+define action in reducer  
+
+  
+  Property Binding - takes property of 
