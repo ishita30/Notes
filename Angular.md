@@ -59,33 +59,30 @@ provides nested styling
 
 package/library for state management
 
-State - data used in the application  
-Store - data store - data will be stored to be read by component  
-Selector - components can read data from store using selector  
-Actions - to perform change in data in store  
-Reducer - picks up the actions, logic written to change the data in store, needs initial state of store
-Effects - side effects, triggered on certain actions
+**State** - data used in the application  
+**Store** - data store - data will be stored to be read by component  
+**Selector** - components can read data from store using selector  
+**Actions** - to perform change in data in store  
+**Reducer** - picks up the actions, logic written to change the data in store, needs initial state of store  
+**Effects** - side effects, triggered on certain actions
 
-
-$ - if they store observable
+Random points:
+1. $ - if they store observable
 data is selected from store using .select
 
 
-| async  
-async pipe - which listens for change whenever an observable changes  
+1. | async  - async pipe - which listens for change whenever an observable changes  
 add data using reducer
 
-reducer uses on function to , first argument is action to which it listens to, second argument fucntion which updates the state
-when we dispatch an action, that is when we actually execute the fucntion, not in reducer
+1. reducer uses on function to , first argument is action to which it listens to, second argument fucntion which updates the state. when we dispatch an action, that is when we actually execute the fucntion, not in reducer
 
-listening to observable with help of async pipe, and dispatching action, which is executing fucntion in reducer to change value in store
+1. listening to observable with help of async pipe, and dispatching action, which is executing fucntion in reducer to change value in store
 actions can take in data  
-props - to attach data to action,
+1. props - to attach data to action,
 define action in reducer  
 
   
-  Property Binding - takes property of ts {}
+1. Property Binding - takes property of ts {}
 
-First Constructor then ngOnInit ( on page loaded)
-ngAfterViewInit( after loading the page this will load)
-  Angular Lifecycle Hook  - ngOnInit
+1. Constructor >> ngOnInit ( on page loaded) >> ngAfterViewInit( after loading the page this will load)  
+Angular Lifecycle Hook  - ngOnInit
