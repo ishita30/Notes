@@ -86,3 +86,5 @@ define action in reducer
 
 1. Constructor >> ngOnInit ( on page loaded) >> ngAfterViewInit( after loading the page this will load)  
 Angular Lifecycle Hook  - ngOnInit
+
+Signals - to detect change, works like observable, load time reduces
