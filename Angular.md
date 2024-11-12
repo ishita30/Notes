@@ -88,3 +88,6 @@ define action in reducer
 Angular Lifecycle Hook  - ngOnInit
 
 Signals - to detect change, works like observable, load time reduces
+
+Points:
+1. {{ title }} - gives value of property present in ts file

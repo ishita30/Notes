@@ -1,0 +1,202 @@
+ 
+"Misrepresentation"
+
+"Rebilled Customer"
+2
+: 
+"Supplier Waived Penalty"
+3
+: 
+"Amenities Not Guaranteed"
+4
+: 
+"Refunded"
+5
+: 
+"Low Dollar"
+6
+: 
+"Under $29.99"
+7
+: 
+"2nd Chargeback Received"
+8
+: 
+"Bank Reversal Received"
+9
+: 
+"No Dispute Rights"
+10
+: 
+"Unable to Honor"
+11
+: 
+"Refunded"
+12
+: 
+"Known Fraud"
+13
+: 
+"New Fraud"
+14
+: 
+"Supplier Waived Penalty"
+15
+: 
+"Rebilled Customer"
+16
+: 
+"Not Fraud"
+17
+: 
+"Remorse Buyer"
+18
+: 
+"Refunded"
+19
+: 
+"Voided"
+20
+: 
+"Refundable"
+21
+: 
+"Original Chargeback Won"
+22
+: 
+"Valid Rebill"
+23
+: 
+"Agent Error"
+24
+: 
+"System Error"
+25
+: 
+"Supplier Waived Penalty"
+26
+: 
+"Rebilled Customer"
+27
+: 
+"Booked Wrong Dates / Location"
+28
+: 
+"Booked Foreign POS"
+29
+: 
+"Incorrect Personal Info"
+30
+: 
+"Banking/Settlement Error"
+31
+: 
+"Inside Flex Policy"
+32
+: 
+"Outside Flex Policy"
+33
+: 
+"Refunded"
+34
+: 
+"Refundable"
+35
+: 
+"Supplier Waived Penalty"
+36
+: 
+"Agent Error"
+37
+: 
+"System Error"
+38
+: 
+"Rebilled Customer"
+39
+: 
+"Non-refundable"
+40
+: 
+"Inside Penalty"
+41
+: 
+"Early Check Out"
+42
+: 
+"Refunded"
+43
+: 
+"Eligible Refund Canceled"
+44
+: 
+"Eligible Coupon Canceled"
+45
+: 
+"Eligible Giftcard Canceled"
+46
+: 
+"Evidence Not Provided"
+47
+: 
+"Not Honored - Overbooked"
+48
+: 
+"Not Honored - No Confirmation"
+49
+: 
+"Supplier Billed Customer Direct"
+50
+: 
+"Supplier Waived Penalty"
+51
+: 
+"Quality - Goodwill"
+52
+: 
+"Rebilled Customer"
+53
+: 
+"Net Rate Divulged"
+54
+: 
+"Do Not Rent List Customer"
+55
+: 
+"Customer Removed"
+56
+: 
+"Charged Incidentals / Fees"
+57
+: 
+"Unable to meet Supplier Requirements"
+58
+: 
+"Relocation"
+59
+: 
+"Quality - GCO Resolved"
+60
+: 
+"Quality - No Contact"
+61
+: 
+"Refunded"
+62
+: 
+"System Issue"
+63
+: 
+"Supplier Waived Penalty"
+64
+: 
+"Rebilled Customer"
+65
+: 
+"Customer Error"
+66
+: 
+"Additional Booking through Supplier / Other OTA"
+67
+: 
+"Refunded"

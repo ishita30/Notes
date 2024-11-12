@@ -1,0 +1,85 @@
+{
+  "global": {
+    "instance": {
+      "iam_instance_profile": {
+        "inline_policies": [
+          {
+            "Effect": "Allow",
+            "Action": ["secretsmanager:*"],
+            "Resource": [
+              "arn:aws:secretsmanager:us-west-2:697626681924:secret:secret/AppConfigs/dev/ers-hermes-ClepWY",
+              "arn:aws:secretsmanager:us-west-2:697626681924:secret:secret/AppConfigs/lab/ers-hermes-XyksBo"
+            ]
+          },
+          {
+            "Effect": "Allow",
+            "Action": ["SNS:*"],
+            "Resource": [
+              "arn:aws:sns:us-west-2:697626681924:EventNotificationTopic-Dev",
+              "arn:aws:sns:us-west-2:697626681924:EventNotificationTopic-Lab"
+            ]
+          },
+          {
+            "Effect": "Allow",
+            "Action": [
+              "logs:CreateLogGroup",
+              "logs:CreateLogStream",
+              "logs:PutLogEvents",
+              "logs:PutMetricFilter",
+              "logs:PutRetentionPolicy",
+              "logs:DescribeLogStreams"
+            ],
+            "Resource": ["arn:aws:logs:*:*:*"]
+          }
+        ],
+        "trust_policies": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": [
+                "ecs-tasks.amazonaws.com",
+                "ec2.amazonaws.com",
+                "sns.amazonaws.com"
+              ]
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      }
+    }
+  },
+  "test": {},
+  "prod": {
+    "instance": {
+      "iam_instance_profile": {
+        "inline_policies": [
+          {
+            "Effect": "Allow",
+            "Action": [
+              "secretsmanager:GetSecretValue",
+              "secretsmanager:DescribeSecret"
+            ],
+            "Resource": [
+              "arn:aws:secretsmanager:us-west-2:120463832777:secret:secret/AppConfigs/produswest2/ers-hermes-EBMWCM"
+            ]
+          },
+          {
+            "Effect": "Allow",
+            "Action": [
+              "SNS:Publish",
+              "SNS:SetTopicAttributes",
+              "SNS:ListSubscriptionsByTopic",
+              "SNS:GetTopicAttributes",
+              "SNS:Receive",
+              "SNS:AddPermission",
+              "SNS:Subscribe"
+            ],
+            "Resource": [
+              "arn:aws:sns:us-west-2:120463832777:EventNotificationTopic-Prod"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

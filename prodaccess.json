@@ -1,0 +1,39 @@
+{
+  "Version": "2012-10-17",
+  "Id": "EventNotificationTopicPolicy",
+  "Statement": [
+    {
+      "Sid": "Allow-All-Actions-For-Owner-Only",
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": "*"
+      },
+      "Action": [
+        "SNS:Publish",
+        "SNS:RemovePermission",
+        "SNS:SetTopicAttributes",
+        "SNS:DeleteTopic",
+        "SNS:ListSubscriptionsByTopic",
+        "SNS:GetTopicAttributes",
+        "SNS:Receive",
+        "SNS:AddPermission",
+        "SNS:Subscribe"
+      ],
+      "Resource": "arn:aws:sns:us-west-2:120463832777:EventNotificationTopic-Prod",
+      "Condition": {
+        "StringEquals": {
+          "AWS:SourceOwner": "120463832777"
+        }
+      }
+    },
+    {
+      "Sid": "AllowAssumeRoleToPublish",
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": "arn:aws:iam::547513132891:role/efr-dmsservices-risk-tech-analyst-tools--prod-us-west-2-prodp"
+      },
+      "Action": "sns:Publish",
+      "Resource": "arn:aws:sns:us-west-2:120463832777:EventNotificationTopic-Prod"
+    }
+  ]
+}

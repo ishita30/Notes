@@ -1,0 +1,25 @@
+   search(searchRequest) {
+        searchRequest.query = this.sanitizeQuery(searchRequest.query);
+        if (!searchRequest || !searchRequest.query || !searchRequest.query.trim().length) {
+            this.alertService.wrapErrorAndCreateSelfClosingAlert({ message: 'Invalid or empty search request' }, ALERT_SHOW_TIME);
+            return;
+        }
+
+        const validateOneQueueDetails = this.onValidateOneQueueSearchReq(searchRequest);
+        if (validateOneQueueDetails.validation) {
+            this.alertService.wrapErrorAndCreateSelfClosingAlert({ message: `Invalid ${validateOneQueueDetails.searchType}` }, ALERT_SHOW_TIME);
+            return;
+        }
+
+        let oneQueueSearchQuery = searchRequest.query.trim();
+        if (oneQueueSearchQuery.indexOf('dm_bank_reason_code = \'------\'') !== -1) {
+            oneQueueSearchQuery = oneQueueSearchQuery.replaceAll('dm_bank_reason_code = \'------\'', 'dm_bank_reason_code IS NULL');
+        }
+
+        const trimmedSearchRequest = {
+            query: oneQueueSearchQuery,
+            limit: searchRequest.limit
+        } as SearchRequest;
+
+        this.store.dispatch(loadOneQueueSearchResult({ searchRequest: trimmedSearchRequest }));
+    }

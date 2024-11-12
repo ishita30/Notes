@@ -1,0 +1,311 @@
+325 - 29 - visa - T&E document request
+614 - 07 - mast - Bank Reason: 07
+7014 - 32 - visa - Cardholder Does Not Recognize Transaction
+7036 - 4831 - mast - Transaction Amount Differs
+7038 - 502 - jcb - Cardmember Dispute
+7042 - 546 - jcb - Unauthorized Purchase
+9000 - 5 - mast - Cardholder does not agree with amount billed
+9001 - 27 - visa - IIAS Healthcare Retrieval Request
+9002 - 43 - mast - IIAS Healthcare Retrieval Request
+9003 - 21 - mast - Cardholder Does Not Recognize 
+9004 - 22 - mast - Cardholder not present tx not transacted by cardholder
+9005 - 23 - mast - Cardholder needs for personal records
+9006 - 28 - visa - Cardholder request for copy with signature
+9007 - 30 - visa - Cardholder request due to dispute
+9008 - 33 - visa - Fraud Investigation
+9009 - 41 - mast - Fraud Investigation
+9010 - 34 - visa - Repeat request for copy
+9011 - 42 - mast - Potential chargeback/compliance
+9016 - 2 - mast - Requested/Required Information Illegible or Missing
+9017 - 7 - mast - Warning Bulletin
+9018 - 8 - mast - Requested/Required Authorization Not Obtained
+9019 - 12 - mast - Account number not on file
+9020 - 31 - mast - Transaction Amount Differs
+9021 - 34 - mast - Duplicate Processing
+9022 - 37 - mast - No Cardholder Authorization
+9023 - 40 - mast - Fraudulent processing of transactions 
+9024 - 41 - mast - Cancelled Recurring Transaction
+9025 - 42 - mast - Late Presentment
+9026 - 46 - mast - Original Trans Currency Not Provided
+9027 - 49 - mast - Questionable merchant activity 
+9028 - 53 - mast - Not as Described
+9029 - 54 - mast - Cardholder Dispute - Not Elsewhere Classified
+9030 - 55 - mast - Non-receipt of merchandise
+"9031 - 59 - mast - No-Show, Addendum, or ATM Dispute"
+9032 - 60 - mast - Credit Not Processed
+9033 - 63 - mast - 9033 - 63 - mast - Cardholder Does Not Recognize Potential F
+9034 - 70 - mast - Account Number on Warning Bulletin
+9035 - 71 - mast - Chip/PIN Liability Shift
+9036 - 30 - visa - Services Not Rendered
+9037 - 41 - visa - Cancelled recurring transaction
+9038 - 53 - visa - Not as Described
+9039 - 57 - visa - Fraudulent processing of transactions
+9040 - 62 - visa - Counterfeit Transaction
+9041 - 70 - visa - Account Number on Exception File
+9042 - 71 - visa - Mast - Chip/PIN Liability Shift
+9043 - 72 - visa - No Authorization
+9044 - 73 - visa - Expired Card
+9045 - 74 - visa - Late presentation
+9046 - 75 - visa - Cardholder Does Not Recognize Transaction 
+9047 - 76 - visa - Incorrect Transaction Code
+9048 - 77 - visa - Non-Matching Account Number
+9049 - 78 - visa - Service Code Violation (International Only)
+9050 - 80 - visa - Incorrect Transaction Amount or Account Number
+9051 - 81 - visa - Fraudulent Transaction: Card Present Environment
+9052 - 82 - visa - Duplicate Processing
+9053 - 83 - visa - Fraudulent Transaction
+9054 - 85 - visa - Credit Not Processed
+9055 - 86 - visa - Paid By Other Means
+9056 - 90 - visa - Non-receipt of merchandise
+9057 - 93 - visa - Merchant Fraud Performance Program (International Only)
+9058 - A01 - amer - Charge Amount Exceeds Authorization Amount
+9059 - A02 - amer - No Valid Authorization
+9060 - A08 - amer - Authorization Approval Expired
+9061 - F10 - amer - Missing Imprint
+9062 - F14 - amer - Missing Signature
+9063 - F22 - amer - Expired or Not Yet Valid Card
+9064 - F24 - amer - No Card Member Authorization
+9065 - F29 - amer - 9065 - F29 - amer - No Knowledge
+9066 - C02 - amer - Credit Not Processed
+9067 - C04 - amer - Goods/Services Returned or Refused
+9068 - C05 - amer - Goods/Services Cancelled
+9069 - C08 - amer - Goods/Services Not Received
+9070 - C14 - amer - Paid By Other Means
+9071 - C18 - amer - No Show or CARDeposit Cancelled
+9072 - C28 - amer - Cancelled Recurring Billing
+9073 - C31 - amer - Not as Described
+9074 - C32 - amer - Not as Described
+9075 - M10 - amer - Not as Described
+9076 - M49 - amer - Not as Described
+9077 - P01 - amer - Unassigned Card Number
+9078 - P03 - amer - Credit Proccessed as Charge
+9079 - P04 - amer - Charge Processed as Credit
+9080 - P05 - amer - Incorrect Charge Amount
+9081 - P07 - amer - Late Submission
+9082 - P08 - amer - Duplicate Charge
+9083 - P22 - amer - Nonmatching Card Number
+9084 - P23 - amer - Currency Discrepancy
+9085 - R03 - amer - Insufficient Reply
+9086 - R13 - amer - No Reply
+9087 - M01 - amer - Chargeback Authorization
+9088 - FR2 - amer - Fraudulent Transaction
+9089 - 004 - amer - Services Not Rendered
+9090 - 021 - amer - Goods or Services Canceled
+9091 - 024 - amer - Goods/Services Damaged or Defective
+9092 - 059 - amer - Repair or replacement of damaged/defective goods requested
+9093 - 061 - amer - Credit should have been submitted as a Charge
+9094 - 062 - amer - Charge should have been submitted as a Credit
+9095 - 063 - amer - Not As Describedd
+9096 - 127 - amer - Does Not Recognize
+9097 - 147 - amer - Charge will be paid by insurance company
+9098 - 154 - amer - Goods/Services Cancelled and/or Refused
+9099 - 155 - amer - Goods or Services Not Received
+9100 - 158 - amer - Credit requested for goods returned
+9101 - 169 - amer - Invalid currency
+9102 - 170 - amer - Credit Not Processedd
+9103 - 173 - amer - Duplicate Billing
+9104 - 175 - amer - Credit expected but not received
+9105 - 176 - amer - Does Not Recognize CNP Charge
+9106 - 177 - amer - Unauthorized
+9107 - 193 - amer - Fraud Transaction
+9108 - 680 - amer - The Amount Differs
+9109 - 684 - amer - Paid By Other Meanss
+9110 - 691 - amer - Requesting Support and Itemization
+9111 - 693 - amer - Damages/theft or loss
+9112 - FR4 - amer - Placed in the Immediate Chargeback Program
+9113 - FR6 - amer - Placed in the Partial Immediate Chargeback Program
+9114 - M11 - amer - Credit received. Reversing debit and crediting merchant
+9115 - M35 - amer - See additional info for explanation of adjustment
+9116 - M36 - amer - Please see the additional notes related to this dispute. 
+9117 - M38 - amer - Reversing debit and crediting merchant account
+9118 - PP01 - PAYPAL - Unauthorized payment
+9119 - PP02 - PAYPAL - Item not received
+9120 - PP03 - PAYPAL - Merchandise
+9121 - PP04 - PAYPAL - Duplicate payment
+9122 - PP05 - PAYPAL - Special
+9123 - PP06 - PAYPAL - Recurring payment cancelled
+9124 - PP07 - PAYPAL - Not as Described
+9125 - PP08 - PAYPAL - Processing error
+9126 - PP09 - PAYPAL - Credit not processed
+9127 - PP10 - PAYPAL - Charge not recognized
+9128 - PP11 - PAYPAL - Other
+9129 - PP12 - PAYPAL - Unauthorized
+9130 - PP13 - PAYPAL - Inquiry
+9131 - PP14 - PAYPAL - Inquiry by PayPal
+9132 - PP15 - PAYPAL - Funding decline
+9133 - PP16 - PAYPAL - Not as described
+9134 - PP17 - PAYPAL - Non-receipt
+9135 - PP18 - PAYPAL - Defective or incorrect merchandise
+9136 - PP19 - PAYPAL - Unwanted merchandise
+9137 - 01 - disc - Transaction Documentation Request
+9138 - 03 - disc - Transaction Documentation Req-Dispute
+9139 - 04 - disc - 9139 - 04 - disc - Transaction Documentation Req-Fraud
+9140 - 05 - disc - Good Faith Investigation
+9141 - A - disc - Cardholder Requires Documentation
+9142 - AA - disc - Does Not Recognize
+9143 - AL - disc - Airline Transaction Dispute
+9144 - AP - disc - Automatic Payment
+9145 - AT - disc - Authorization Noncompliance
+9146 - AW - disc - Altered Amount
+9147 - CA - disc - Cash Advance Dispute
+9148 - CD - disc - Credit/Debit Posted Incorrectly
+9149 - CR - disc - Cancelled Reservation
+9150 - DA - disc - Declined Authorization
+9151 - EX - disc - Expired Card
+9152 - IC - disc - Requested Item Illegible Copy
+9153 - IN - disc - Invalid Card Number
+9154 - IS - disc - Missing Signature
+9155 - LP - disc - Late Presentation Transaction
+9156 - NA - disc - No Authorization
+9157 - NC - disc - Not Classified
+9158 - NR - disc - No Response
+9159 - DP - disc - Duplicate Processing
+9160 - PM - disc - Paid By Other Means
+9161 - RG - disc - Non-Receipt of Goods
+9162 - RM - disc - Cardholder Disputes Quality of Goods or Services
+9163 - RN1 - disc - Additional Credit Requested
+9164 - RN2 - disc - Credit Not Processed
+9165 - SV - disc - Stored Value Dispute
+9166 - TF - disc - Service Establishment Adjustment
+9167 - UA01 - disc - Fraud - Card Present Transaction
+9168 - UA02 - disc - Fraud - Card Not Present Transaction
+9169 - UA03 - disc - Sale Exceeded Authorization Amount
+9170 - UA10 - disc - Proof of Valid Transaction Request
+"9171 - UA11 - disc - No Signature, Swiped"
+"9172 - UA12 - disc - Different Signature, Swiped"
+"9173 - UA18 - disc - Illegible Copy, Swiped"
+9174 - UA20 - disc - Proof of Card Present Request
+"9175 - UA21 - disc - No Signature, Keyed"
+"9176 - UA22 - disc - Different Signature, Keyed"
+9177 - UA23 - disc - Invalid Imprint
+"9178 - UA28 - disc - Illegible Copy, Keyed"
+9179 - UA30 - disc - Proof of Delivery Request
+9180 - UA31 - disc - Invalid Proof of Delivery
+9181 - UA32 - disc - Invalid CNP Sale
+"9182 - UA38 - disc - Illegible Copy, Card Not Present"
+9183 - UA99 - disc - Non-Compliance to Network Rules
+9184 - UANR - disc - Fraud - Non Response to Retrieval Req.
+9185 - A02 - dine - Card on POS Participants Negative File. No Authorisation
+9186 - B21 - dine - Requested Documents not Received
+9187 - B22 - dine - Wrong document received for Retrieval Request
+9188 - B23 - dine - Requested documents Illegible
+9189 - B25 - dine - Duplicate Charge
+9190 - 98 - visa - Compliance Chargeback
+9191 - 98 - mast - Compliance Chargeback
+9192 - D62 - dine - Cardholder Did not Receive Service
+9193 - D64 - dine - Additional Amounts on Settled Charges
+9194 - D66 - dine - Credit not Processed
+9195 - D67 - dine - Cardholder Paid by Other Means
+9196 - D68 - dine - No Show Charges
+9197 - D70 - dine - Unsigned Charges not Fraud Related
+9198 - M02 - dine - Other see description text below
+9199 - 27 - mast - IIAS Healthcare Retrieval Request Mastercard
+9200 - W75 - visa - Visa-Does not recognise transaction
+9201 - W75A - visa - Visa-Cardholder Does Not Recognize Transaction
+9202 - W75B - visa - Visa-C/H does not recognise - Potential Fraud
+9203 - W75C - visa - Visa- Transaction not recognised
+9204 - W75D - visa - Visa-A Chargeback Reason Was Not Supplied
+9205 - W83 - visa - Non Possession Of Card
+9206 - W30 - visa - Visa-Services Not Rendered
+9207 - W82 - visa - Visa-Processing Error
+9208 - W82A - visa - Visa- Duplicate Processing
+9209 - W70 - visa - Visa-Card Recovery Bulletin - T&E Transaction
+9210 - W53 - visa - Visa-Merchandise Not As Described
+9211 - W80 - visa - Visa-Alteration of Amount
+9212 - W80A - visa - Visa- Non-Transaction Currency Through VisaNet
+9213 - W90 - visa - Visa-Non receipt of merchandise
+9214 - W33 - visa - Visa- Fraud analysis request
+9215 - W74 - visa - Visa-Late Presentment
+9216 - W41 - visa - Visa- Cancel Recurring Transaction
+9217 - W85 - visa - Visa- Credit not processed
+9218 - W63 - mast - MC- Does not recognise transaction
+9219 - W63A - mast - MC- Cardholder Does Not Recognize Transaction
+9220 - W63B - mast - CH does not recognise - Potential Fraud
+9221 - W63C - mast - Transaction not recognised
+9222 - W37 - mast - No Cardholder Authorisation
+9223 - W54 - mast - A Chargeback Reason Was Not Supplied
+9224 - W55 - mast - Services Not Rendered
+9225 - W34 - mast - Processing Error
+9226 - W53 - mast - Merchandise Not As Described
+9227 - W31 - mast - Alteration of Amount
+9228 - W31A - mast - MC- Transaction Amount Differs
+9229 - W55A - mast - Non receipt of merchandise
+9230 - W41 - mast - Fraud analysis request
+9231 - W34A - mast - MC- Duplicate Processing
+9232 - W42 - mast - MC- Late Presentment
+9233 - W41A - mast - MC- Cancel Recurring Transaction
+9234 - W60 - mast - MC- Credit Not Processed
+9235 - PP20 - PAYPAL - Wrong Amount or Date
+9236 - PP21 - PAYPAL - Paid with other method
+9237 - 10.5 - visa - Visa Fraud Monitoring Program
+9238 - 11.1 - visa - Card Recovery Bulletin
+9239 - 11.2 - visa - Declined Authorization
+9240 - 11.3 - visa - No Authorization -Visa
+9241 - 12.1 - visa - Late Presentment
+9242 - 12.3 - visa - Incorrect Currency
+9245 - 12.5 - visa - Incorrect Amount
+9246 - 12.6 - visa - Duplicate Processing/Paid by other means
+9247 - 12.7 - visa - Invalid Data
+9248 - 13.1 - visa - Merchandise/Services Not Received
+9249 - 13.2 - visa - Cancelled Reoccuring
+9250 - 13.3 - visa - Not As Described- Visa
+9251 - 13.4 - visa - Counterfeit Merchandise
+9252 - 13.5 - visa - Misrepresentation
+9253 - 13.7 - visa - Cancelled Merchandise/Services
+9254 - 13.8 - visa - Original Credit Transaction Not Accepted
+9256 - 13.9 - visa - Non-Receipt of Cash or Load Transaction Value
+9257 - 10.1 - visa - EMV Liability Counterfeit Fraud
+9258 - 12.2 - visa - Incorrect Transaction Code-Visa
+9259 - 12.6.1 - visa - Duplicate Processing- Visa
+9260 - 12.6.2 - visa - Paid By Other Means- Visa
+9261 - 13.6 - visa - Credit Not Processed- Visa
+10000 - 10.2 - visa - EMV Liability Non Counterfeit Fraud
+10001 - 10.3 - visa - Other Fraud- Card Present Environment
+10002 - 10.4 - visa - Other Fraud - Card Absent Environment
+10003 - ELV-Cha - ELV-SEPA - Charged Back
+10011 - 6014 - amer - C/M Does not recognize Transaction or Transaction Amount
+10012 - 6006 - amer - Legal Request or Fraud Analysis
+10013 - 6003 - amer - Chargeback Documentation
+10014 - 4750 - amer - Car Rental Charge in Dispute
+10015 - 4554 - amer - Goods and Services Not Received
+10016 - 4553 - amer - Not as Described or defective merchandise
+10017 - 4544 - amer - Cancellation of Recurring Goods/Services Services
+10018 - 4540 - amer - Card Not Present
+10019 - 4526 - amer - Missing Signature
+10020 - 4517 - amer - Request for Support Illegible/Incomplete
+10021 - 4516 - amer - Request for Support Not Fulfilled
+10022 - 4515 - amer - Paid through Other Means
+10023 - 4513 - amer - Credit Not Presented
+10024 - 4512 - amer - Multiple Processing
+10025 - 4507 - amer - Incorrect Transaction Amount or Account Number Presented
+10028 - U02 - dine - Fraud - Card Not Present Transaction
+10029 - 513 - jcb - Credit Not Processed
+10030 - C42 - dine - Fraud - Card Not Present Transaction
+10031 - W75D - amer - Amex-A Chargeback Reason Was Not Supplied
+10032 - 4755 - disc - Non-Receipt of Goods or Services
+10033 - 83 - disc - Fraudulent Transaction
+10034 - 85 - disc - Credit Not Processed
+10035 - 37 - visa - No Cardholder Authorization
+10036 - 30 - jcb - Services Not Rendered
+10037 - 6 - jcb - Fraud - Card Not Present Transaction
+10038 - 4837 - mast - Bank Reason: 4837
+10039 - 4841 - mast - Bank Reason: 4841
+10040 - 4846 - mast - Bank Reason: 4846
+10041 - 4853 - mast - Bank Reason: 4853
+10042 - 4855 - mast - Bank Reason: 4855
+10043 - 4870 - mast - Bank Reason: 4870
+10044 - 4812 - mast - Bank Reason: 4812
+10045 - 4834 - mast - Bank Reason: 4834
+10046 - 4840 - mast - Bank Reason: 4840
+10047 - 4842 - mast - Bank Reason: 4842
+10048 - 4849 - mast - Bank Reason: 4849
+10049 - 4854 - mast - Bank Reason: 4854
+10050 - 4863 - mast - Bank Reason: 4863
+10051 - 4871 - mast - Bank Reason: 4871
+10052 - UA05 - disc - Bank Reason: UA05
+10053 - DC - disc - Bank Reason: DC
+10054 - UA06 - disc - Bank Reason: UA06
+10055 - NF - disc - Bank Reason: NF
+10056 - F30 - amer - Bank Reason: F30
+10057 - F31 - amer - Bank Reason: F31
+10058 - 4808 - mast - Bank Reason: 4808

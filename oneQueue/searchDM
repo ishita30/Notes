@@ -1,0 +1,21 @@
+    search(searchRequest) {
+        if (!searchRequest || !searchRequest.query || !searchRequest.query.trim().length) {
+            this.alertService.wrapErrorAndCreateSelfClosingAlert({ message: 'Invalid or empty search request' }, ALERT_SHOW_TIME);
+        }
+        const validateDebitMemoDetails=this.onValidateDMSearchReq(searchRequest);
+        if(validateDebitMemoDetails.validation){
+            this.alertService.wrapErrorAndCreateSelfClosingAlert({ message: `Invalid ${validateDebitMemoDetails.searchType}` }, ALERT_SHOW_TIME);
+            return
+        }
+       else {
+            let dmSearchQuery = searchRequest.query.trim();
+            if (dmSearchQuery.indexOf('dm_bank_reason_code = \'------\'') !== -1) {
+                dmSearchQuery = dmSearchQuery.replaceAll('dm_bank_reason_code = \'------\'', 'dm_bank_reason_code IS NULL');
+            }
+            const trimmedSearchRequest = {
+                query: dmSearchQuery,
+                limit: searchRequest.limit
+            } as SearchRequest;
+            this.store.dispatch(loadDMSearchResult({ searchRequest: trimmedSearchRequest }));
+        }
+    }
