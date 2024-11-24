@@ -92,3 +92,5 @@ Signals - to detect change, works like observable, load time, bundle time while 
 Points:
 1. {{ title }} - gives value of property present in ts file
 2. export keyword - allow publicly to be imported
+3. First app component is called
+4. Then router outlet activates the routing file
