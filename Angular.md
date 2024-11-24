@@ -93,4 +93,4 @@ Points:
 1. {{ title }} - gives value of property present in ts file
 2. export keyword - allow publicly to be imported
 3. First app component is called
-4. Then router outlet activates the routing file
+4. Then router outlet activates the routing file, app.routing.ts
