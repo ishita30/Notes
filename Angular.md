@@ -11,7 +11,7 @@
 - tsconfig.json
 - tsconfig.spec.json
 
-2. main.ts -> first file to load up when app runs in browser, app modules loads up
+2. main.ts -> first file to load up when app runs in browser, app modules loads up, calls the module file
 3. index.html -> main html file to be executed
 4. angular.json -> angular cli code written
 5. package.json -> have all the dependencies req for the project
