@@ -111,4 +111,5 @@ routerLink gets matched with the path to be routed to( in app.route.ts/app.routi
                         </a>
 ````                        
 
-In Standalone project, to work with routerLink, you need to import RouterModule in the component. 
+In Standalone project, to work with routerLink, you need to import RouterLink in the component. 
+In NgModule compoent, no need of this, as already done in app.routing
