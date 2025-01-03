@@ -98,4 +98,15 @@ Points:
 
 
 ### How to go from one page to another without loading?
-routerLink gets matched with the path to be routed to
+routerLink gets matched with the path to be routed to( in app.route.ts/app.routing.ts)
+
+````
+ <a class="nav-link"
+                           target="_blank"
+                           [routerLink]="['/dms/pnrdetails']"
+                           [queryParams]="{
+                           pnrCode: pnrDetails.pnrCode,
+                           airTicketNumber: pnrDetails.tickets[0].ticketNumber}">
+                            PNR Details
+                        </a>
+````                        
