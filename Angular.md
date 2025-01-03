@@ -100,7 +100,7 @@ Points:
 
 
 ### How to go from one page to another without loading?
-routerLink gets matched with the path to be routed to( in app.route.ts/app.routing.ts)
+1. routerLink gets matched with the path to be routed to( in app.route.ts/app.routing.ts)
 
 ````
  <a class="nav-link"
@@ -115,3 +115,5 @@ routerLink gets matched with the path to be routed to( in app.route.ts/app.routi
 
 In Standalone project, to work with routerLink, you need to import RouterLink in the component. 
 In NgModule compoent, no need of this, as already done in app.routing.module.ts
+
+2. Make a click event and use router.navigate
