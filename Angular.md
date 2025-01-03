@@ -95,6 +95,8 @@ Points:
 3. First app component is called
 4. Then router outlet( directive to manage routing) activates the routing file, app.routing.ts
 5. TO generate component inside folder -> ng g c compoents/about
+6. () -> triggering the event
+7. [] -> dynamically taking the value
 
 
 ### How to go from one page to another without loading?
@@ -112,4 +114,4 @@ routerLink gets matched with the path to be routed to( in app.route.ts/app.routi
 ````                        
 
 In Standalone project, to work with routerLink, you need to import RouterLink in the component. 
-In NgModule compoent, no need of this, as already done in app.routing
+In NgModule compoent, no need of this, as already done in app.routing.module.ts
