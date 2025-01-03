@@ -110,3 +110,5 @@ routerLink gets matched with the path to be routed to( in app.route.ts/app.routi
                             PNR Details
                         </a>
 ````                        
+
+In Standalone project, to work with routerLink, you need to import RouterModule in the component. 
