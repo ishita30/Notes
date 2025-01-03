@@ -98,3 +98,4 @@ Points:
 
 
 ### How to go from one page to another without loading?
+routerLink gets matched with the path to be routed to
