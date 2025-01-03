@@ -94,6 +94,7 @@ Points:
 2. export keyword - allow publicly to be imported
 3. First app component is called
 4. Then router outlet( directive to manage routing) activates the routing file, app.routing.ts
+5. TO generate component inside folder -> 
 
 
 ### How to go from one page to another without loading?
