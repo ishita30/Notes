@@ -120,6 +120,8 @@ In NgModule compoent, no need of this, as already done in app.routing.module.ts
 3. Activated Route - gives info about route associated with component
 
 #### Lazy Loading
+Angular only loads modules as needed, rather than loading all modules when the application launches. Additionally, preload parts of your application in the background to improve the user experience.
+
 standalone = true -> is for lazy loading
         loadChildren: () => import('app/payment-details/payment-details.module').then(m => m.PaymentDetailsModule)
 
