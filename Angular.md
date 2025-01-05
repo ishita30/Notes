@@ -117,4 +117,7 @@ In Standalone project, to work with routerLink, you need to import RouterLink in
 In NgModule compoent, no need of this, as already done in app.routing.module.ts
 
 2. Make a click event and use router.navigate
-3. Activated Route - gives 
+3. Activated Route - gives info about route associated with component
+
+#### Lazy Loading
+standalone = true -> is for lazy loading
