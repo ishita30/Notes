@@ -121,6 +121,8 @@ In NgModule compoent, no need of this, as already done in app.routing.module.ts
 
 #### Lazy Loading
 standalone = true -> is for lazy loading
+        loadChildren: () => import('app/payment-details/payment-details.module').then(m => m.PaymentDetailsModule)
+
 
 #### Preloading 
 Pre Loading everything and goes in background
