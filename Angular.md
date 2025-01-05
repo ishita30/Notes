@@ -121,3 +121,6 @@ In NgModule compoent, no need of this, as already done in app.routing.module.ts
 
 #### Lazy Loading
 standalone = true -> is for lazy loading
+
+#### Preloading 
+Pre Loading everything and goes in background
