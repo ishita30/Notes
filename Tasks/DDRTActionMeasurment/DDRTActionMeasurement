@@ -1,0 +1,89 @@
+Technical design of DDRT:
+
+BR table - On receiving a CB from bank, cb contains field known as br which tells that why the cb was raised.
+
+For each bank -> BRs are different - This is challenge - since there are patterns and similarities in brs and wanted to do groupings in order to simplify, so expedia reason was created
+
+For each BR -> a ER is allocated ( total 8 active )
+Each of the BR -> is associated to a card type, 
+since it could be possible that a bank supports multiple cards, so depends on which card the customer choose and when customer calls the bank, sees which card the customer has and on basis of that br is choosen by bank, 
+also in dispute process, final say always lies with card
+second cb is submitted by bank -> expedia still wants to fight the cb -> final say of card
+
+onboard a new bank -> new bank reasons are provided by them
+
+combination of br + card type is unique -> mapped to a erc
+
+
+How a template is chosen for a dispute/dm?
+
+
+operations ask -> before M1 -> template was chosen based on br -> template would change based on br -> ops wanted to link it to er and card type + domain
+
+How is template selected?
+template - collection of verbiages 
+
+DRT - data of template is present ( earlier )
+link dispute and choose template from DRT
+
+1 template -> for each BR -> and different for dispute and debit memo -> large number of templates
+
+DP, DR, DRA tables related to BR, not foreign key
+
+
+
+DRA - AttributeValue - bankReasonID 
+disputeruleid - if it is dispute or debitmemo
+DisputeRuleAttributeID -> idenitifier for one template in existing system
+DRT -> 
+has DisputeRuleAttributeID as foreign key
+
+DisputeRuleTemplateIds in DRT - verbiages
+
+DisputeRuleTemplateIds forgien key for saved work( disputedocument ) and disputeruletemplateresponsenote
+
+
+saved work? - answered
+
+what do we mean by syncing of templates
+
+dmsResponseNoteTemplate table -> for verbiages
+
+M1 delivery -> updateTemplates page
+
+
+did initial activity to get the verbiages in sync such that for same combination different templates point to the same verbiages
+
+DRTID -> basis on which we save the evidences uploaded by the analysts -> gives array of templates since they were different for duplicate templates
+DRT -> tells which templates contains which verbiages -> template to verbiage mapping
+
+verbiages were not duplicate
+
+so now used verbiage id in place of DRTID for saved work 
+
+template has information of sort order of verbiages
+
+disuteid -> bankreason -> template -> sortorder -> find verbiages
+
+what is the need for this?
+do not want to map it to a template, because attachements are made to verbiage not a template
+
+experiment on which text leads to higher success rate on the response to the bank
+
+default is populated in verbiages
+
+different forms experimation -> different combinations of verbiages
+
+universal change -> when change is made to a particular template and the template will be updated for all existing combinations of Expedia Reason Code and Card Type and Partition Id
+specific change -> when change is made to a selected combination of templates which now point to the new templates
+
+
+
+Do versioning also needs to maintained/published?
+In both universal and specific change -> actions needs to be published
+If in case of specific change -> need to mention which all combinations were changed?
+
+
+
+
+

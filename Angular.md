@@ -67,29 +67,29 @@ package/library for state management
 **Effects** - side effects, triggered on certain actions
 
 Random points:
+
 1. $ - if they store observable
-data is selected from store using .select
+   data is selected from store using .select
 
-
-1. | async  - async pipe - which listens for change whenever an observable changes  
-add data using reducer
+1. | async - async pipe - which listens for change whenever an observable changes  
+   add data using reducer
 
 1. reducer uses on function to , first argument is action to which it listens to, second argument fucntion which updates the state. when we dispatch an action, that is when we actually execute the fucntion, not in reducer
 
 1. listening to observable with help of async pipe, and dispatching action, which is executing fucntion in reducer to change value in store
-actions can take in data  
+   actions can take in data
 1. props - to attach data to action,
-define action in reducer  
+   define action in reducer
 
-  
 1. Property Binding - takes property of ts {}
 
 1. Constructor >> ngOnInit ( on page loaded) >> ngAfterViewInit( after loading the page this will load)  
-Angular Lifecycle Hook  - ngOnInit
+   Angular Lifecycle Hook - ngOnInit
 
 Signals - to detect change, works like observable, load time, bundle time while building reduces
 
 Points:
+
 1. {{ title }} - gives value of property present in ts file
 2. export keyword - allow publicly to be imported
 3. First app component is called
@@ -97,12 +97,13 @@ Points:
 5. TO generate component inside folder -> ng g c compoents/about
 6. () -> triggering the event
 7. [] -> dynamically taking the value
-
+8. [()] -> value can be present or not both, so both brackets
 
 ### How to go from one page to another without loading?
+
 1. routerLink gets matched with the path to be routed to( in app.route.ts/app.routing.ts)
 
-````
+```
  <a class="nav-link"
                            target="_blank"
                            [routerLink]="['/dms/pnrdetails']"
@@ -111,20 +112,23 @@ Points:
                            airTicketNumber: pnrDetails.tickets[0].ticketNumber}">
                             PNR Details
                         </a>
-````                        
+```
 
-In Standalone project, to work with routerLink, you need to import RouterLink in the component. 
+In Standalone project, to work with routerLink, you need to import RouterLink in the component.
 In NgModule compoent, no need of this, as already done in app.routing.module.ts
 
 2. Make a click event and use router.navigate
 3. Activated Route - gives info about route associated with component
 
 #### Lazy Loading
+
 Angular only loads modules as needed, rather than loading all modules when the application launches. Additionally, preload parts of your application in the background to improve the user experience.
 
 standalone = true -> is for lazy loading
-        loadChildren: () => import('app/payment-details/payment-details.module').then(m => m.PaymentDetailsModule)
+loadChildren: () => import('app/payment-details/payment-details.module').then(m => m.PaymentDetailsModule)
 
+#### Preloading
 
-#### Preloading 
 Pre Loading everything and goes in background
+
+Forms module and Reactive forms module - to fetch and validate forms
