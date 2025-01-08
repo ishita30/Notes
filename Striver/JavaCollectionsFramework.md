@@ -19,7 +19,7 @@ Methods on collections:
 
 3. Set/Map interface - treeset (in sorted set)
 ![alt text](image-2.png)
-TreeHashMap - sorted acc to key
-Hashmap - not ordered
-LinkedkHashmap - 
+TreeHashMap - sorted acc to key  
+Hashmap - not ordered  
+LinkedkHashmap - the one who came first that first then second and so on
 ![alt text](image-3.png)
