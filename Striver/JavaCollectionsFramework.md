@@ -14,5 +14,8 @@ Methods on collections:
 1. List interface - has 4 classes - arrayList, LL , vector ( similar to arraylist, used in multithreading, as it is thread safe ) and stack
 ![alt text](image-1.png)
 
-2. Queue interface - 
+2. Queue interface - Dequeue( double ended queue, can add objects from both sides)
 ![alt text](<image copy 2.png>)
+
+3. Set/Map interface
+![alt text](image-2.png)
