@@ -1,2 +1,6 @@
-are collections of some classes and interfaces
-![alt text](Interfaces of collectionframework.png)
+### Java Collections Framework
+
+
+Are collections of some classes and interfaces
+
+![alt text](InterfacesOfCollectionframework.png)
