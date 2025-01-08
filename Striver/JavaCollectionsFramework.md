@@ -13,3 +13,6 @@ Methods on collections:
 
 1. List interface - has 4 classes - arrayList, LL , vector ( similar to arraylist, used in multithreading, as it is thread safe ) and stack
 ![alt text](image-1.png)
+
+2. Queue interface - 
+![alt text](<image copy 2.png>)
