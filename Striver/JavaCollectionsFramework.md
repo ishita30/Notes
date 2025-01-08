@@ -11,5 +11,5 @@ Methods on collections:
 ![alt text](image.png)
 
 
-1. List interface - has 3 classes - arrayList, LL and stack
+1. List interface - has 4 classes - arrayList, LL , vector ( similar to arraylist, used in multithreading, as it is thread safe ) and stack
 ![alt text](image-1.png)
