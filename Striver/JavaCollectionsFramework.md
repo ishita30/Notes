@@ -17,5 +17,6 @@ Methods on collections:
 2. Queue interface - Dequeue( double ended queue, can add objects from both sides)
 ![alt text](<image copy 2.png>)
 
-3. Set/Map interface
+3. Set/Map interface - treeset (in sorted set)
 ![alt text](image-2.png)
+![alt text](image-3.png)
