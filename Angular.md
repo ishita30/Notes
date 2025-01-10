@@ -98,6 +98,7 @@ Points:
 6. () -> triggering the event
 7. [] -> dynamically taking the value
 8. [()] -> value can be present or not both, so both brackets
+9. #xyz -> value got can be passed
 
 ### How to go from one page to another without loading?
 
