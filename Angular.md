@@ -135,3 +135,9 @@ loadChildren: () => import('app/payment-details/payment-details.module').then(m 
 Pre Loading everything and goes in background
 
 Forms module and Reactive forms module - to fetch and validate forms
+
+
+### Forms:
+
+
+
