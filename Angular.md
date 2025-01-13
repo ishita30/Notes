@@ -144,5 +144,6 @@ Html form
 Angular gives ability to provide a js object to work with forms and to retrieve user value
 
 1. Template driven approach - angular infers the form object from dom
+ng form - automatically created wrapper
 
 2. Reactive approach - form is created programmatically and synchronised with the dom. form is created in ts code. 
