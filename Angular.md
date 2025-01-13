@@ -141,4 +141,8 @@ Forms module and Reactive forms module - to fetch and validate forms
 
 Html form
 
-Angular gives ability to 
+Angular gives ability to provide a js object to work with forms and to retrieve user value
+
+1. Template driven approach - angular infers the form object from dom
+
+2. Reactive approach - form is created programmatically and synchronised with the dom
