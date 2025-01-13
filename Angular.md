@@ -148,3 +148,9 @@ ng form - automatically created wrapper
 
 2. Reactive approach - form is created programmatically and synchronised with the dom. form is created in ts code. 
 import reactiveFormsmodule in module file
+
+FormControl - key value pair of js object
+
+1. create a html form
+2. write ts related to it
+3. sync html code and ts code
