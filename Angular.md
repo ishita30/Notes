@@ -157,3 +157,4 @@ value - the key value pairs setup in ts file, this can be binded to the model of
 3. sync html code and ts code
 4. submit form
 5. add validation
+6. get access to controls ( using .get, .valid, .touched)
