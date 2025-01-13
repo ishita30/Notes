@@ -139,5 +139,6 @@ Forms module and Reactive forms module - to fetch and validate forms
 
 ### Forms:
 
+Html form
 
-
+Angular gives ability to 
