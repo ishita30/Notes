@@ -150,8 +150,10 @@ ng form - automatically created wrapper
 import reactiveFormsmodule in module file
 
 FormControl - key value pair of js object
+value - the key value pairs setup in ts file, this can be binded to the model of the application and make sure that form structure matches the structure of application model
 
 1. create a html form
 2. write ts related to it
 3. sync html code and ts code
 4. submit form
+5. add validation
