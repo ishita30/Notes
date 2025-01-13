@@ -158,7 +158,7 @@ FormGroup - to make nested formgroups
 
 FormArray - holds an array of controls
 
-Asycn validators - which are able to wait for response before returning true or false
+Asycn validators - which are able to wait for response before returning true or false, promise 
 
 1. create a html form
 2. write ts related to it
