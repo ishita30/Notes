@@ -154,3 +154,4 @@ FormControl - key value pair of js object
 1. create a html form
 2. write ts related to it
 3. sync html code and ts code
+4. submit form
