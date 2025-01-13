@@ -154,6 +154,8 @@ FormControl - key value pair of js object
 value - the key value pairs setup in ts file, this can be binded to the model of the application and make sure that form structure matches the structure of application model
 
 
+FormGroup - to make nested formgroups
+
 FormArray - holds an array of controls
 
 1. create a html form
